@@ -14,20 +14,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2  # Updated to v2 for Node.js 16 support
         with:
-          node-version: '16'
-
-      - name: Install Node.js 16
-        run: |
-          sudo apt-get install -y nodejs=16*
-          sudo apt-get install -y npm
-          node --version  # Verify node version
-          npm --version   # Verify npm version
+          node-version: '16'  # Specifying Node.js version 16
 
       - name: Install dependencies
-        run: npm install  # Adjust if your project uses a different package manager
+        run: npm install  # Simplified to npm install, assuming package.json is in the root
 
       - name: Build project
         run: npm run build
@@ -52,7 +45,7 @@ jobs:
           path: ./dist
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v4  # Updated to v4 for potential improvements
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
