@@ -1,3 +1,10 @@
+import line from './assets/BMI-images/pattern-curved-line-left.svg'
+import gender from './assets/BMI-images/icon-gender.svg'
+import age from '/assets/BMI-images/icon-age.svg'
+import muscle from '/assets/BMI-images/icon-muscle.svg'
+import pregnancy from '/assets/BMI-images/icon-pregnancy.svg'
+import race from './assets/BMI-images/icon-race.svg'
+import 
 export default function Limitations() {
   return (
     <section className="limitations">
@@ -9,7 +16,7 @@ export default function Limitations() {
           their BMI outcomes, and in certain cases, the measurement may not be
           beneficial to use.
         </p>
-        <img src="src\assets\BMI-images\pattern-curved-line-left.svg" alt="" />
+        <img src={line} alt="" />
       </div>
 
       <div className="grid-container">
@@ -17,7 +24,7 @@ export default function Limitations() {
           <div className="grid-item">
             <h3>
               <span>
-                <img src="src\assets\BMI-images\icon-gender.svg" alt="" />
+                <img src={gender} alt="" />
               </span>
               Gender
             </h3>
@@ -32,7 +39,7 @@ export default function Limitations() {
           <div className="grid-item">
             <h3>
               <span>
-                <img src="src\assets\BMI-images\icon-age.svg" alt="" />
+                <img src={age} alt="" />
               </span>
               Age
             </h3>
@@ -44,7 +51,7 @@ export default function Limitations() {
           <div className="grid-item">
             <h3>
               <span>
-                <img src="src\assets\BMI-images\icon-muscle.svg" alt="" />
+                <img src={muscle} alt="" />
               </span>
               Muscle
             </h3>
@@ -59,7 +66,7 @@ export default function Limitations() {
           <div className="grid-item">
             <h3>
               <span>
-                <img src="src\assets\BMI-images\icon-pregnancy.svg" alt="" />
+                <img src={pregnancy} alt="" />
               </span>
               Pregnancy
             </h3>
@@ -72,7 +79,7 @@ export default function Limitations() {
           <div className="grid-item">
             <h3>
               <span>
-                <img src="src\assets\BMI-images\icon-race.svg" alt="" />
+                <img src={race} alt="" />
               </span>
               Race
             </h3>
