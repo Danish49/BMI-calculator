@@ -1,6 +1,6 @@
 import { ReactComponent as Eating} from './assets/BMI-images/icon-eating.svg';
-import excercise from './assets/BMI-images/icon-exercise.svg'
-import sleep from './assets/BMI-images/icon-skeep.svg'
+import { ReactComponent as Excercise} from './assets/BMI-images/icon-exercise.svg'
+import { ReactComponent as Sleep} from './assets/BMI-images/icon-skeep.svg'
 export default function Remedies() {
   return (
     <section className="remedies">
@@ -13,7 +13,7 @@ export default function Remedies() {
         </p>
       </div>
       <div className="remedy">
-        <img src={excercise} alt="" />
+        <Excercise/>
         <h3>Regular exercise</h3>
         <p>
           Exercise improves fitness, aids weight control, elevates mood, and
@@ -21,7 +21,7 @@ export default function Remedies() {
         </p>
       </div>
       <div className="remedy">
-        <img src={sleep} alt="" />
+        <Sleep/>
         <h3>Adequate sleep</h3>
         <p>
           Sleep enhances mental clarity, emotional stability, and physical
