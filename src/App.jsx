@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./home";
-import About from "./About";
+import About from "./about";
 import Remedies from "./remedies";
 import Limitations from "./limitations";
 function App() {
