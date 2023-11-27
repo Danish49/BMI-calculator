@@ -1,8 +1,11 @@
+import eating from './assets/BMI-images/icon-eating.svg';
+import excercise from './assets/BMI-images/icon-exercise.svg'
+import sleep from './assets/BMI-images/icon-skeep.svg'
 export default function Remedies() {
   return (
     <section className="remedies">
       <div className="remedy">
-        <img src="src\assets\BMI-images\icon-eating.svg" alt="" />
+        <img src={eating} alt="" />
         <h3>Healthy eating</h3>
         <p>
           Healthy eating promotes weight control, disease prevention, better
@@ -10,7 +13,7 @@ export default function Remedies() {
         </p>
       </div>
       <div className="remedy">
-        <img src="src\assets\BMI-images\icon-exercise.svg" alt="" />
+        <img src={excercise} alt="" />
         <h3>Regular exercise</h3>
         <p>
           Exercise improves fitness, aids weight control, elevates mood, and
@@ -18,7 +21,7 @@ export default function Remedies() {
         </p>
       </div>
       <div className="remedy">
-        <img src="src\assets\BMI-images\icon-sleep.svg" alt="" />
+        <img src={sleep} alt="" />
         <h3>Adequate sleep</h3>
         <p>
           Sleep enhances mental clarity, emotional stability, and physical
