@@ -1,12 +1,13 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
+import myImage from './src/assets/BMI-images/doctor2.webp';
 export default function About() {
   return (
     <section className="about">
       <div className="image-box">
         <img
-          src="/src/assets/BMI-images/doctor2.webp"
+          src={myImage}
           alt=""
         />
       </div>
