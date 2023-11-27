@@ -6,7 +6,7 @@ export default function About() {
     <section className="about">
       <div className="image-box">
         <img
-          src="src\assets\BMI-images\doctor2.webp"
+          src="/src/assets/BMI-images/doctor2.webp"
           alt=""
         />
       </div>
