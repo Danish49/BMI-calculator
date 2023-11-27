@@ -1,6 +1,6 @@
 import { ReactComponent as Eating} from './assets/BMI-images/icon-eating.svg';
 import { ReactComponent as Excercise} from './assets/BMI-images/icon-exercise.svg'
-import { ReactComponent as Sleep} from './assets/BMI-images/icon-skeep.svg'
+import { ReactComponent as Sleep} from './assets/BMI-images/icon-sleep.svg'
 export default function Remedies() {
   return (
     <section className="remedies">
