@@ -4,7 +4,7 @@ import age from '/assets/BMI-images/icon-age.svg'
 import muscle from '/assets/BMI-images/icon-muscle.svg'
 import pregnancy from '/assets/BMI-images/icon-pregnancy.svg'
 import race from './assets/BMI-images/icon-race.svg'
-import 
+
 export default function Limitations() {
   return (
     <section className="limitations">
