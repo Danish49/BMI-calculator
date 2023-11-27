@@ -1,11 +1,11 @@
-import eating from './assets/BMI-images/icon-eating.svg';
+import { ReactComponent as Eating} from './assets/BMI-images/icon-eating.svg';
 import excercise from './assets/BMI-images/icon-exercise.svg'
 import sleep from './assets/BMI-images/icon-skeep.svg'
 export default function Remedies() {
   return (
     <section className="remedies">
       <div className="remedy">
-        <img src={eating} alt="" />
+        <Eating/>
         <h3>Healthy eating</h3>
         <p>
           Healthy eating promotes weight control, disease prevention, better
