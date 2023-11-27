@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
-import myImage from './src/assets/BMI-images/doctor2.webp';
+import myImage from './assets/BMI-images/doctor2.webp';
 export default function About() {
   return (
     <section className="about">
