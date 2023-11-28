@@ -59,6 +59,7 @@ export default function Form() {
               value={height}
               onChange={handleChange}
               onKeyDown={handleKeyPress}
+              required 
             />
             <h3>cm</h3>
           </div>
@@ -76,6 +77,7 @@ export default function Form() {
               value={weight}
               onChange={handleChange}
               onKeyDown={handleKeyPress}
+              required 
             />
             <h3>kg</h3>
           </div>
