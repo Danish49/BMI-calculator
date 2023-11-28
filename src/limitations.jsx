@@ -2,7 +2,7 @@ import  Line  from './assets/BMI-images/pattern-curved-line-left.svg'
 import  Gender from './assets/BMI-images/icon-gender.svg'
 import  Age from './assets/BMI-images/icon-age.svg'
 import  Muscle from './assets/BMI-images/icon-muscle.svg'
-import  Pregnancy }from './assets/BMI-images/icon-pregnancy.svg'
+import  Pregnancy from './assets/BMI-images/icon-pregnancy.svg'
 import  Race from './assets/BMI-images/icon-race.svg'
 
 export default function Limitations() {
