@@ -1,9 +1,9 @@
-import {ReactComponent as Line } from './assets/BMI-images/pattern-curved-line-left.svg'
-import {ReactComponent as Gender} from './assets/BMI-images/icon-gender.svg'
-import {ReactComponent as Age} from './assets/BMI-images/icon-age.svg'
-import {ReactComponent as Muscle} from './assets/BMI-images/icon-muscle.svg'
-import {ReactComponent as Pregnancy }from './assets/BMI-images/icon-pregnancy.svg'
-import {ReactComponent as Race} from './assets/BMI-images/icon-race.svg'
+import  Line  from './assets/BMI-images/pattern-curved-line-left.svg'
+import  Gender from './assets/BMI-images/icon-gender.svg'
+import  Age from './assets/BMI-images/icon-age.svg'
+import  Muscle from './assets/BMI-images/icon-muscle.svg'
+import  Pregnancy }from './assets/BMI-images/icon-pregnancy.svg'
+import  Race from './assets/BMI-images/icon-race.svg'
 
 export default function Limitations() {
   return (
@@ -16,7 +16,7 @@ export default function Limitations() {
           their BMI outcomes, and in certain cases, the measurement may not be
           beneficial to use.
         </p>
-        <Line />
+        <img src={Line} alt="" />
       </div>
 
       <div className="grid-container">
@@ -24,7 +24,7 @@ export default function Limitations() {
           <div className="grid-item">
             <h3>
               <span>
-                <Gender/>
+               <img src={Gender} alt="" />
               </span>
               Gender
             </h3>
@@ -39,7 +39,7 @@ export default function Limitations() {
           <div className="grid-item">
             <h3>
               <span>
-                <Age/>
+               <img src={Age} alt="" />
               </span>
               Age
             </h3>
@@ -51,7 +51,7 @@ export default function Limitations() {
           <div className="grid-item">
             <h3>
               <span>
-                <Muscle />
+                <img src={Muscle} alt="" />
               </span>
               Muscle
             </h3>
@@ -66,7 +66,7 @@ export default function Limitations() {
           <div className="grid-item">
             <h3>
               <span>
-                <Pregnancy />
+               <img src={Pregnancy} alt="" />
               </span>
               Pregnancy
             </h3>
@@ -79,7 +79,7 @@ export default function Limitations() {
           <div className="grid-item">
             <h3>
               <span>
-                <Race />
+              <img src={Race} alt="" />
               </span>
               Race
             </h3>
