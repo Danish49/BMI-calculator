@@ -116,6 +116,9 @@ body {
   border-radius: 1rem;
   height: 3.8rem;
 }
+.inputBg:hover {
+  border: 1px solid #315cf6;
+}
 
 #BMI-form .result {
   width: 90%;
